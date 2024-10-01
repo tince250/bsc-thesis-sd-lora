@@ -48,7 +48,7 @@ CLIP score uses the CLIP model to calculate the embeddings of the given prompt a
 The prompt and the images used for generating CLIP scores for each LoRA: \
 ![](evals/quantitative_comparison.png)
 
-The results and discussion can be found in the [Thesis Presentation](Thesis presentation.pdf).
+The results and discussion can be found in the `Thesis presentation.pdf.
 
 #### Trigger-word test
 To further evaluate the successfulness of the training, the effect of the trigger word was evaluated.
