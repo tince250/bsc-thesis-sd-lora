@@ -35,26 +35,26 @@ Qualitative evaluation was done by conditioning all four LoRA models on the same
 2. Concept in non-natural setting - generalizing new contexts
 3. No concept - preserving prior knowledge
 
-The prompts used:
-![](evals/qualitative prompts.png)
+The prompts used: \
+![](evals/qualitative_prompts.png)
 
-The resulting images:
-![](evals/qualitative comparison.png)
+The resulting images: \
+![](evals/qualitative_comparison.png)
 
 #### Quantitative evaluation
 Quantitative evaluation metrics for diffusion models vary based on the type of task. For text-to-image generation, `CLIP score` metrics is a common choice.
 CLIP score uses the CLIP model to calculate the embeddings of the given prompt and the generated image. Semantic similarity between the text and the image is then calculated as the cosine distance between the two vectors in the same vector space.
 
-The prompt and the images used for generating CLIP scores for each LoRA:
-![](evals/quantitative comparison.png)
+The prompt and the images used for generating CLIP scores for each LoRA: \
+![](evals/quantitative_comparison.png)
 
 The results and discussion can be found in the [Thesis Presentation](Thesis presentation.pdf).
 
 #### Trigger-word test
 To further evaluate the successfulness of the training, the effect of the trigger word was evaluated.
 
-Images generated with developed LoRA, without and with the trigger word at the start of the prompt:
-![](evals/trigger word test.png)
+Images generated with developed LoRA, without and with the trigger word at the start of the prompt: \
+![](evals/trigger_word_test.png)
 
 ### Running inference
 
