@@ -1,1 +1,1 @@
-# bsc-thesis-sd-lora
+Fine-tuning Stable Diffusion using the LoRA method
