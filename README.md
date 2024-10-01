@@ -36,7 +36,7 @@ Qualitative evaluation was done by conditioning all four LoRA models on the same
 3. No concept - preserving prior knowledge
 
 The prompts used:
-![](evals/qualitative prompts.png)
+![](evals/qualitative_prompts.png)
 
 The resulting images:
 ![](evals/qualitative comparison.png)
